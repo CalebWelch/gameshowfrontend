@@ -13,7 +13,7 @@
     </div>
 </nav>
 <body>
-    <div class="input-group mb-3 p-4">
+    <div class="input-group mb-3 p-4 col-md-2">
         <input
             type="text"
             class="form-control"
@@ -22,8 +22,17 @@
             id="name"
         />
 
-        <button type="button" class="btn btn-light" onclick="test()">
+        <button
+            type="button"
+            id="submit"
+            class="btn btn-light"
+            onclick="test()"
+        >
             submit
         </button>
+    </div>
+    <div class="mb-3 p-4">
+        <h3>Timer:</h3>
+        <p id="timer">0</p>
     </div>
 </body>
